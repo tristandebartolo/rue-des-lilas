@@ -1,0 +1,780 @@
+@font-face {
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/dm-sans-400i-0.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/dm-sans-500i-1.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/dm-sans-700i-2.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/dm-sans-400-3.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/dm-sans-500-4.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/dm-sans-700-5.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/playfair-display-400i-0.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/playfair-display-500i-1.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/playfair-display-700i-2.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/playfair-display-400-3.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/playfair-display-500-4.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/playfair-display-700-5.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/plus-jakarta-sans-400i-0.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/plus-jakarta-sans-500i-1.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/plus-jakarta-sans-700i-2.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/plus-jakarta-sans-400-3.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/plus-jakarta-sans-500-4.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/plus-jakarta-sans-700-5.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/inter-400i-0.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/inter-500i-1.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/inter-700i-2.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/inter-400-3.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/inter-500-4.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/inter-700-5.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+/* No horizontal scrollbar when a node moves past the edges. `clip` on body
+   creates no scroll container: ScrollTrigger keeps pinning on window. */
+html { overflow-x: hidden; }
+body { min-height: 100vh; overflow-x: clip; }
+img, video, svg { display: block; max-width: 100%; }
+figure { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button { background: none; border: 0; cursor: pointer; font: inherit; color: inherit; padding: 0; }
+/* Link buttons (`<a data-bp-btn>`) share the button box so both render alike. */
+a[data-bp-btn] { display: inline-block; text-align: center; }
+
+/* Anti-FOUC for GSAP — animated nodes are hidden until script.js runs.
+   Scoped under html.bp-js (inline <head> script): without JS nothing hides. */
+.bp-js .gsap-hidden { visibility: hidden; opacity: 0; }
+
+:root {
+  --bp-color-bg: #f4efe6;
+  --bp-color-bg-alt: #E8EDF8;
+  --bp-color-surface: #FFFFFF;
+  --bp-color-text: #15202B;
+  --bp-color-text-muted: #4B5563;
+  --bp-color-primary: #1D4ED8;
+  --bp-color-primary-text: #FFFFFF;
+  --bp-color-accent: #F59E0B;
+  --bp-color-accent-text: #15202B;
+  --bp-color-accent2: #0EA5E9;
+  --bp-color-border: #D3D7DB;
+  --bp-color-shadow: #15202B;
+  --bp-color-highlight: #FFFFFF;
+  --bp-radius-sm: 6px;
+  --bp-radius-md: 10px;
+  --bp-radius-lg: 16px;
+  --bp-radius-pill: 999px;
+  --bp-shadow-sm: none;
+  --bp-shadow-md: none;
+  --bp-shadow-lg: none;
+  --bp-shadow-hard: none;
+  --bp-shadow-inset: none;
+  --bp-shadow-glow: none;
+  --bp-border-width: 1px;
+  --bp-font-display: "Plus Jakarta Sans", sans-serif;
+  --bp-font-body: Inter, sans-serif;
+  --bp-font-label: Inter, sans-serif;
+  --bp-font-scale-xs: 0.8rem;
+  --bp-font-scale-sm: 0.95rem;
+  --bp-font-scale-md: 1.1rem;
+  --bp-font-scale-lg: 1.5rem;
+  --bp-font-scale-xl: 2.4rem;
+  --bp-font-scale-xxl: 4rem;
+  --bp-type-display-weight: 800;
+  --bp-type-display-tracking: -0.02em;
+  --bp-type-display-transform: none;
+  --bp-type-display-line-height: 1.05;
+  --bp-type-body-weight: 400;
+  --bp-type-body-line-height: 1.6;
+  --bp-type-label-weight: 600;
+  --bp-type-label-tracking: 0.12em;
+  --bp-type-label-transform: uppercase;
+  --bp-button-radius: 8px;
+  --bp-button-padding-x: 24px;
+  --bp-button-padding-y: 14px;
+  --bp-button-weight: 600;
+  --bp-button-tracking: 0;
+  --bp-button-transform: none;
+  --bp-button-shadow: none;
+  --bp-button-shadow-hover: none;
+  --bp-space-xs: 0.5rem;
+  --bp-space-sm: 1rem;
+  --bp-space-md: 2rem;
+  --bp-space-lg: 4rem;
+  --bp-space-xl: 6rem;
+  --bp-space-xxl: 9rem;
+  --bp-effect-glass-blur: 0px;
+  --bp-effect-text-glow: none;
+  --bp-effect-grain: none;
+}
+
+body {
+  background-color: var(--bp-color-bg);
+  color: var(--bp-color-text);
+  font-family: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ── Per-node rules ─────────────────────────────────── */
+
+.bp-ru {
+  background-image: linear-gradient(to bottom, #f6e4dc 0%, #f4efe6 20%, #efe5d2 40%, #ecdcc0 60%, #e8cfa8 82%, #2a2420 100%);
+  width: 100%;
+}
+
+.bp-ru-sc {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bp-ru-sc-cp2016 {
+  background-color: #f4efe6;
+  position: absolute;
+  top: 0.9%;
+  left: 48px;
+  z-index: 1;
+  max-width: 30%;
+  padding: 24px 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(28, 26, 23, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+[data-bp-r="p0-xgKJc6jomDaTWjneLuYy4"] {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: italic;
+  color: #c2410c;
+}
+
+[data-bp-r="p0-poIrJcMeazMnZa8K-AJxU"] {
+  margin: 0;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: #1c1a17;
+}
+
+[data-bp-r="p0-5qHeaxHmHTcGeCVS0XMqo"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b645a;
+}
+
+.bp-ru-sc-cp2018 {
+  background-color: #f4efe6;
+  position: absolute;
+  top: 20.9%;
+  right: 48px;
+  z-index: 1;
+  max-width: 30%;
+  padding: 24px 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(28, 26, 23, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+[data-bp-r="p0-ZUB8JWhXpZaNZpr9Nsv7O"] {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: italic;
+  color: #c2410c;
+}
+
+[data-bp-r="p0-_bFUmJ3-vrcu0zO7Ms2qR"] {
+  margin: 0;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: #1c1a17;
+}
+
+[data-bp-r="p0-vPtXFg7JKQd3C9sxkT4pt"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b645a;
+}
+
+.bp-ru-sc-cp2020 {
+  background-color: #f4efe6;
+  position: absolute;
+  top: 40.9%;
+  left: 48px;
+  z-index: 1;
+  max-width: 30%;
+  padding: 24px 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(28, 26, 23, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+[data-bp-r="p0-fRNV5s0-ndQmrBsHiy7L_"] {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: italic;
+  color: #c2410c;
+}
+
+[data-bp-r="p0-FwN41gyzxZa9lf-C4OPlw"] {
+  margin: 0;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: #1c1a17;
+}
+
+[data-bp-r="p0-NR0wAEXNX2uolS7f_GexO"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b645a;
+}
+
+.bp-ru-sc-cp2023 {
+  background-color: #f4efe6;
+  position: absolute;
+  top: 60.9%;
+  right: 48px;
+  z-index: 1;
+  max-width: 30%;
+  padding: 24px 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(28, 26, 23, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+[data-bp-r="p0-pwFG-OiKPQTyORVYOQXmd"] {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: italic;
+  color: #c2410c;
+}
+
+[data-bp-r="p0-hjiqvXDe9nuI7k1zjx4p3"] {
+  margin: 0;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: #1c1a17;
+}
+
+[data-bp-r="p0--yElm7eyiVXt9UcV0ru6g"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b645a;
+}
+
+.bp-ru-sc-cp2026 {
+  background-color: #f4efe6;
+  position: absolute;
+  top: 80.9%;
+  left: 48px;
+  z-index: 1;
+  max-width: 30%;
+  padding: 24px 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(28, 26, 23, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+[data-bp-r="p0-h_k9FW5e68o-vsOYy8SQB"] {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: italic;
+  color: #c2410c;
+}
+
+[data-bp-r="p0-YPWfVU4Vod-Kq461e8uPU"] {
+  margin: 0;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: #1c1a17;
+}
+
+[data-bp-r="p0-_kgOUjHqDMfOW57spQQFC"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b645a;
+}
+
+[data-bp-r="p0-pPf7gELUTSARL0Cpun5lN"] {
+  width: 100%;
+}
+
+.bp-ru-sc-st > svg {
+  width: 100%;
+}
+
+.bp-ff {
+  background-image: linear-gradient(to bottom, #2a2420 0%, #1c1a17 100%);
+  width: 100%;
+  padding: 96px 48px 112px;
+}
+
+.bp-ff-gf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  max-width: 720px;
+}
+
+[data-bp-r="p0-AubO-S9TXIugIeYFEKgxY"] {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: italic;
+  color: #f59e0b;
+}
+
+[data-bp-r="p0-Oeqhd6lIoUSPJFIzVT6Av"] {
+  margin: 0;
+  font-family: Playfair Display;
+  font-size: 140px;
+  font-weight: 500;
+  line-height: 1;
+  color: #f4efe6;
+}
+
+[data-bp-r="p0-PS_vu3yVXnPZLvGV9WNZC"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e9e0d1;
+}
+
+[data-bp-r="p0-qfIbnrn4dkrqWDUXK5VG-"] {
+  background-color: #e0748a;
+  padding: 16px 28px;
+  border-radius: 999px;
+  color: #1c1a17;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 220ms ease-out 0ms;
+}
+
+[data-bp-r="p0-qfIbnrn4dkrqWDUXK5VG-"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 14px 28px -12px rgba(224, 116, 138, 0.6);
+}
+
+.bp-lg {
+  background-color: #1c1a17;
+  width: 100%;
+  padding: 28px 48px;
+  border-top: 1px solid rgba(233, 224, 209, 0.16);
+}
+
+[data-bp-r="p0-Mkayh3rbxLqNlMVVlAeb0"] {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media (max-width: 1024px) {
+  .bp-ru-sc-cp2016 {
+    max-width: 44%;
+  }
+
+  [data-bp-r="p0-poIrJcMeazMnZa8K-AJxU"] {
+    font-size: 34px;
+  }
+
+  .bp-ru-sc-cp2018 {
+    max-width: 44%;
+  }
+
+  [data-bp-r="p0-_bFUmJ3-vrcu0zO7Ms2qR"] {
+    font-size: 34px;
+  }
+
+  .bp-ru-sc-cp2020 {
+    max-width: 44%;
+  }
+
+  [data-bp-r="p0-FwN41gyzxZa9lf-C4OPlw"] {
+    font-size: 34px;
+  }
+
+  .bp-ru-sc-cp2023 {
+    max-width: 44%;
+  }
+
+  [data-bp-r="p0-hjiqvXDe9nuI7k1zjx4p3"] {
+    font-size: 34px;
+  }
+
+  .bp-ru-sc-cp2026 {
+    max-width: 44%;
+  }
+
+  [data-bp-r="p0-YPWfVU4Vod-Kq461e8uPU"] {
+    font-size: 34px;
+  }
+
+  [data-bp-r="p0-pPf7gELUTSARL0Cpun5lN"] {
+    width: 140%;
+    margin-left: -20%;
+  }
+}
+
+@media (max-width: 640px) {
+  .bp-ru-sc-cp2016 {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+    padding: 16px 18px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  [data-bp-r="p0-xgKJc6jomDaTWjneLuYy4"] {
+    font-size: 16px;
+  }
+
+  [data-bp-r="p0-poIrJcMeazMnZa8K-AJxU"] {
+    font-size: 24px;
+  }
+
+  [data-bp-r="p0-5qHeaxHmHTcGeCVS0XMqo"] {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bp-ru-sc-cp2018 {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+    padding: 16px 18px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  [data-bp-r="p0-ZUB8JWhXpZaNZpr9Nsv7O"] {
+    font-size: 16px;
+  }
+
+  [data-bp-r="p0-_bFUmJ3-vrcu0zO7Ms2qR"] {
+    font-size: 24px;
+  }
+
+  [data-bp-r="p0-vPtXFg7JKQd3C9sxkT4pt"] {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bp-ru-sc-cp2020 {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+    padding: 16px 18px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  [data-bp-r="p0-fRNV5s0-ndQmrBsHiy7L_"] {
+    font-size: 16px;
+  }
+
+  [data-bp-r="p0-FwN41gyzxZa9lf-C4OPlw"] {
+    font-size: 24px;
+  }
+
+  [data-bp-r="p0-NR0wAEXNX2uolS7f_GexO"] {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bp-ru-sc-cp2023 {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+    padding: 16px 18px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  [data-bp-r="p0-pwFG-OiKPQTyORVYOQXmd"] {
+    font-size: 16px;
+  }
+
+  [data-bp-r="p0-hjiqvXDe9nuI7k1zjx4p3"] {
+    font-size: 24px;
+  }
+
+  [data-bp-r="p0--yElm7eyiVXt9UcV0ru6g"] {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bp-ru-sc-cp2026 {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+    padding: 16px 18px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  [data-bp-r="p0-h_k9FW5e68o-vsOYy8SQB"] {
+    font-size: 16px;
+  }
+
+  [data-bp-r="p0-YPWfVU4Vod-Kq461e8uPU"] {
+    font-size: 24px;
+  }
+
+  [data-bp-r="p0-_kgOUjHqDMfOW57spQQFC"] {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  [data-bp-r="p0-pPf7gELUTSARL0Cpun5lN"] {
+    width: 200%;
+    margin-left: -50%;
+  }
+
+  .bp-ff {
+    padding: 64px 20px 72px;
+  }
+
+  [data-bp-r="p0-AubO-S9TXIugIeYFEKgxY"] {
+    font-size: 16px;
+  }
+
+  [data-bp-r="p0-Oeqhd6lIoUSPJFIzVT6Av"] {
+    font-size: 88px;
+  }
+
+  [data-bp-r="p0-PS_vu3yVXnPZLvGV9WNZC"] {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  [data-bp-r="p0-qfIbnrn4dkrqWDUXK5VG-"] {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bp-lg {
+    padding: 24px 20px;
+  }
+
+  [data-bp-r="p0-Mkayh3rbxLqNlMVVlAeb0"] {
+    flex-direction: column;
+  }
+}
